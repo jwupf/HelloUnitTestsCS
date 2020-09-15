@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{73FED002-A77
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "electronic", "lib\electronic\electronic.csproj", "{DD678673-E775-4BC9-A32F-39B9E4AA3A8B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0E850519-BAE7-4325-B867-2FCBB1EBFB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "electronicTests", "tests\electronicTests\electronicTests.csproj", "{154618F3-98A2-48D7-83F2-822B6752B69C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,8 +50,21 @@ Global
 		{DD678673-E775-4BC9-A32F-39B9E4AA3A8B}.Release|x64.Build.0 = Release|Any CPU
 		{DD678673-E775-4BC9-A32F-39B9E4AA3A8B}.Release|x86.ActiveCfg = Release|Any CPU
 		{DD678673-E775-4BC9-A32F-39B9E4AA3A8B}.Release|x86.Build.0 = Release|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Debug|x64.Build.0 = Debug|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Debug|x86.Build.0 = Debug|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Release|x64.ActiveCfg = Release|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Release|x64.Build.0 = Release|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Release|x86.ActiveCfg = Release|Any CPU
+		{154618F3-98A2-48D7-83F2-822B6752B69C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DD678673-E775-4BC9-A32F-39B9E4AA3A8B} = {73FED002-A77E-4A37-B248-5944F8E084EE}
+		{154618F3-98A2-48D7-83F2-822B6752B69C} = {0E850519-BAE7-4325-B867-2FCBB1EBFB74}
 	EndGlobalSection
 EndGlobal

@@ -6,27 +6,27 @@
 
 > touch Readme.md
 
-> mkdir app
-
-> cd app
-
-> dotnet new console
-
-> cd ..
-
 > dotnet new sln
+
+> dotnet new console -o app
 
 > dotnet sln add app
 
-> mkdir lib
-
-> mkdir lib/electronic
-
 > dotnet new classlib -o ./lib/electronic
+
+> mv lib/electronic/class1.cs lib/electronic/resistor.cs
 
 > dotnet sln add lib/electronic
 
-> mv lib/electronic/class1.cs lib/electronic/resistor.cs
+> dotnet add app/app.csproj reference lib/electronic/electronic.csproj
+
+> dotnet new mstest -o tests/electronicTests
+
+> mv tests/electronicTests/UnitTest1.cs tests/electronicTests/resistorUnitTest.cs   
+
+> dotnet sln add tests/electronicTests
+
+> dotnet add tests/electronicTests reference lib/electronic 
 
 > git init
 
