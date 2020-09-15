@@ -1,3 +1,4 @@
+using electronic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace electronicTests
@@ -16,5 +17,11 @@ namespace electronicTests
         // {
         //     Assert.IsTrue(false);
         // }
+
+        [TestMethod]
+        public void CreateResistor()
+        {
+            var resistor = new Resistor();
+        }
     }
 }
