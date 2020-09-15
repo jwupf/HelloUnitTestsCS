@@ -6,9 +6,15 @@ namespace electronicTests
     public class resistorUnitTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void SuccessMethod()
         {
             Assert.IsTrue(true);
+        }
+
+                [TestMethod]
+        public void FailMethod()
+        {
+            Assert.IsTrue(false);
         }
     }
 }
