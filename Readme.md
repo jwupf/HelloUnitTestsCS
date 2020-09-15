@@ -1,5 +1,11 @@
 # Setup
 
+> git init
+
+> echo "**/obj/*" > ./.gitignore
+
+> echo "**/bin/*" >> ./.gitignore
+
 > mkdir HelloUnitTestCS
 
 > cd HelloUnitTestCS
@@ -28,8 +34,8 @@
 
 > dotnet add tests/electronicTests reference lib/electronic 
 
-> git init
+> dotnet test tests/electronicTests
 
-> echo "**/obj/*" > ./.gitignore
+> dotnet run --project app
 
-> echo "**/bin/*" >> ./.gitignore
+> dotnet build ...
