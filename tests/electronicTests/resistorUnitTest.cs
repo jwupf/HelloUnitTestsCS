@@ -11,10 +11,10 @@ namespace electronicTests
             Assert.IsTrue(true);
         }
 
-                [TestMethod]
-        public void FailMethod()
-        {
-            Assert.IsTrue(false);
-        }
+        // [TestMethod]
+        // public void FailMethod()
+        // {
+        //     Assert.IsTrue(false);
+        // }
     }
 }
