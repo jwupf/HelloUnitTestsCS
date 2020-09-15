@@ -1,14 +1,20 @@
 # Setup
 
+Getting startet
+
+> mkdir HelloUnitTestCS
+
+> cd HelloUnitTestCS
+
+Some git related stuff
+
 > git init
 
 > echo "**/obj/*" > ./.gitignore
 
 > echo "**/bin/*" >> ./.gitignore
 
-> mkdir HelloUnitTestCS
-
-> cd HelloUnitTestCS
+From [dotnet in vscode documentation](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code)
 
 > touch Readme.md
 
